@@ -1,0 +1,34 @@
+# Platform-managed (AEXYR agent framework)
+.a0proj/
+
+# Internal project documentation (agent-only, not published)
+service_blueprint.md
+service_changelog.md
+service_pitfalls.md
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+src-tauri/target/
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Rust
+target/
+*.rs.bk
+
+# TypeScript cache
+*.tsbuildinfo
